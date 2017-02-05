@@ -1,4 +1,23 @@
 #logo {
-  max-width: 30em;
+  max-width: 10em;
   height: auto;
 }
+
+/*body {
+  background-color: #EAEDED;
+}
+
+.finished {
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+  background-color: #0A7472;
+}
+
+svg {
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+}
+
+svg:hover {
+  background-color: #EAEDED;
+}*/
