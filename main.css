@@ -9,6 +9,10 @@ h1 {
   font-family: 'Raleway', sans-serif;
 }
 
+h3 {
+  text-align: center;
+}
+
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 44%}
     50%{background-position:100% 57%}
