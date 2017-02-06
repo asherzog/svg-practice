@@ -1,23 +1,36 @@
+nav {
+  margin-bottom: 5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+.header {
+  margin-left: 1em;
+  font-size: 3em;
+}
+
 #logo {
   max-width: 10em;
   height: auto;
 }
 
-/*body {
-  background-color: #EAEDED;
+.spot {
+  max-height: 20em;
+  width: auto;
 }
 
-.finished {
-  -webkit-transition: background-color 1s;
-  transition: background-color 1s;
-  background-color: #0A7472;
+.donors {
+  max-height: 24em;
+  width: auto;
 }
 
-svg {
-  -webkit-transition: background-color 1s;
-  transition: background-color 1s;
-}
-
-svg:hover {
-  background-color: #EAEDED;
+/*.pics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }*/
