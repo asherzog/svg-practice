@@ -9,6 +9,22 @@ h1 {
   font-family: 'Raleway', sans-serif;
 }
 
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 44%}
+    50%{background-position:100% 57%}
+    100%{background-position:0% 44%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 44%}
+    50%{background-position:100% 57%}
+    100%{background-position:0% 44%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 44%}
+    50%{background-position:100% 57%}
+    100%{background-position:0% 44%}
+}
+
 .header {
   margin-left: 1em;
   font-size: 3em;
@@ -29,8 +45,22 @@ h1 {
   width: auto;
 }
 
-/*.pics {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}*/
+.home {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  background: linear-gradient(35deg, #ebf6f3, #8ecdbc, #2e3eeb);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 22s ease infinite;
+  -moz-animation: AnimationName 22s ease infinite;
+  animation: AnimationName 22s ease infinite;
+}
+
+.two {
+  height: 100vh;
+  width: 100vw;
+  background: white;
+}

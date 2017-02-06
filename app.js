@@ -22,7 +22,7 @@ $(() => {
     rightToLeft: false,
     setGallerySize: true,
     watchCSS: false,
-    wrapAround: true
+    wrapAround: false
   });
 
 });
