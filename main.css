@@ -1,38 +1,76 @@
 nav {
-  margin-bottom: 5em;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+li {
+  font-size: 1.25em;
+  font-family: 'Raleway', sans-serif;
+}
+a {
+  color: white;
+}
+
+.about {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.75em;
+  color: white;
+  letter-spacing: 0.25em;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5em;
+}
+
+.about {
+  max-width: 75%;
+}
+
+.header {
+  font-size: 2em;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.35em;
+  display: flex;
+  text-align: center;
 }
 
 h1 {
-  font-family: 'Raleway', sans-serif;
+  font-size: 2.5em;
 }
 
 h3 {
   text-align: center;
+  font-family: 'Raleway', sans-serif;
 }
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:0% 44%}
-    50%{background-position:100% 57%}
-    100%{background-position:0% 44%}
+    0%{background-position:70% 0%}
+    50%{background-position:31% 100%}
+    100%{background-position:70% 0%}
 }
 @-moz-keyframes AnimationName {
-    0%{background-position:0% 44%}
-    50%{background-position:100% 57%}
-    100%{background-position:0% 44%}
+    0%{background-position:70% 0%}
+    50%{background-position:31% 100%}
+    100%{background-position:70% 0%}
 }
 @keyframes AnimationName {
-    0%{background-position:0% 44%}
-    50%{background-position:100% 57%}
-    100%{background-position:0% 44%}
+    0%{background-position:70% 0%}
+    50%{background-position:31% 100%}
+    100%{background-position:70% 0%}
 }
 
-.header {
-  margin-left: 1em;
-  font-size: 3em;
-}
 
 #logo {
   max-width: 10em;
@@ -55,16 +93,48 @@ h3 {
 }
 
 body {
-  background: linear-gradient(35deg, #ebf6f3, #8ecdbc, #2e3eeb);
-  background-size: 600% 600%;
+  background: linear-gradient(26deg, #031d7a, #136b30);
+background-size: 400% 400%;
 
-  -webkit-animation: AnimationName 22s ease infinite;
-  -moz-animation: AnimationName 22s ease infinite;
-  animation: AnimationName 22s ease infinite;
+-webkit-animation: AnimationName 28s ease infinite;
+-moz-animation: AnimationName 28s ease infinite;
+animation: AnimationName 28s ease infinite;
+
+}
+
+.active {
+  background: linear-gradient(26deg, #031d7a, #136b30);
+background-size: 400% 400%;
+
+-webkit-animation: AnimationName 28s ease infinite;
+-moz-animation: AnimationName 28s ease infinite;
+animation: AnimationName 28s ease infinite;
 }
 
 .two {
   height: 100vh;
   width: 100vw;
   background: white;
+}
+
+.projects {
+  margin-top: 4em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: row;
+}
+
+.list-group {
+  width: 30%;
+  margin-right: 1em;
+}
+
+.descriptions {
+  margin-left: 1em;
+  width: 70%;
+}
+
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
 }
