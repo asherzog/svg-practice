@@ -93,7 +93,7 @@ h3 {
 }
 
 body {
-  background: linear-gradient(26deg, #031d7a, #136b30);
+  background: linear-gradient(26deg, #3456d4, #136b30);
 background-size: 400% 400%;
 
 -webkit-animation: AnimationName 28s ease infinite;
@@ -103,7 +103,7 @@ animation: AnimationName 28s ease infinite;
 }
 
 .active {
-  background: linear-gradient(26deg, #031d7a, #136b30);
+  background: linear-gradient(26deg, #3456d4, #136b30);
 background-size: 400% 400%;
 
 -webkit-animation: AnimationName 28s ease infinite;
