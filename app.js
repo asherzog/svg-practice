@@ -26,8 +26,11 @@ $(() => {
   });
 
   $('.list-group-item').click(changeItem);
+  $(`.descriptions`).html(info[0]);
 
 });
+
+let info = [`<h1>Hi</h1>`, `<h1>test</h1>`,`<h1>maybe?</h1>`];
 
 
 function changeItem() {
@@ -39,6 +42,7 @@ function changeItem() {
   if (!id.hasClass('active')) {
     id.addClass('active');
   }
+  $('.descriptions').html(info[index])
 }
 
 function finished(vivus) {
